@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" href= "CSS/style.css">
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Konverensi</title>
+</head>
+<body>
+    <header class="judul">
+        <h1 class="judulTulisan">Temperatur Conversion</h1>
+    </header>
+    <div class="bagian-bagian">
+    <div class="bagianUtama">
+    <section class="celcius">
+        <label>Celcius</label>
+            <input type="text" id="inputCelcius" placeholder="masukkan nilai celcius disini">
+                <div class="inputbutton">
+                    <button id="convert">Conversion</button>
+                    <button id="reset">Reset</button>
+                </div>
+    </section>   
+    <section class="caraKalkulasi">
+        <label>Cara Kalkulasi</label>
+            <textarea id="isiKalkulasi"></textarea>
+           
+    </section> 
+   
+</div>
+<div class="bagianSampingan">
+      
+    <section class="fahrenheit">
+        <label>Fahrenheit</label>
+        <input type="text" id="outputFahrenheit" placeholder="masukkan nilai fahrenheit disini">
+        <div class = "inputbutton">
+            <button onclick = "Convert()">Conversion</button>
+            <button onclick = "reset()">Reset</button>
+        </div>
+    </section>
+    <section class="inipenjelasan">
+        <label >Penjelasan</label>
+        <textarea id="isiPenjelasan"></textarea>
+    </section>
+</div>
+
+</div>
+
+</body>
+</html>
+<script src="JS/index.js"></script>
